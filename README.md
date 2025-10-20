@@ -64,4 +64,4 @@ Deploy easily to platforms like [Vercel](https://vercel.com/) (recommended for N
 2. Connect the repository to Vercel and deploy.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License..
