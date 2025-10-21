@@ -2,6 +2,7 @@
 
 import { personalData } from "@/utils/data/personal-data";
 import BlogCard from "../components/homepage/blog/blog-card";
+import { projectsData } from "@/utils/data/projects-data";
 
 async function getBlogs() {
   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
@@ -15,7 +16,7 @@ async function getBlogs() {
 };
 
 async function page() {
-  const blogs = await getBlogs();
+  const blogs = projectsData;
 
   return (
     <div className="py-8">
@@ -23,7 +24,7 @@ async function page() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-2xl rounded-md">
-            All Blog
+            All Projects
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
