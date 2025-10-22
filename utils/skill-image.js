@@ -108,12 +108,8 @@ export const skillsImage = (skill) => {
       return mssql;
     case "redis":
       return redis;
-    case 'html':
-      return html;
     case 'docker':
       return docker;
-    case 'css':
-      return css;
     case 'angular':
       return angular;
     case 'javascript':
@@ -122,8 +118,6 @@ export const skillsImage = (skill) => {
       return react;
     case 'typescript':
       return typescript;
-    case 'bootstrap':
-      return bootstrap;
     case 'memsql':
       return memsql;
     case 'mongodb':
@@ -134,8 +128,6 @@ export const skillsImage = (skill) => {
       return postgresql;
     case 'tailwind':
       return tailwind;
-    case 'c':
-      return c;
     case 'c#':
       return csharp;
     case 'dart':
@@ -166,12 +158,6 @@ export const skillsImage = (skill) => {
       return dotnet;
     case '.net core':
       return dotnetcore
-    case 'kubernetes':
-      return kubernetes;
-    case 'linux':
-      return linux;
-    case 'sqlalchemy':
-      return sqlalchemy;
     case 'fastapi':
       return fastapi;
     default:

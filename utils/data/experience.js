@@ -11,7 +11,7 @@ export const experiences = [
     id: 2,
     title: "Python Developer",
     company: "Aaxon Solutions",
-    duration: "(June 2024 - Sept 2024)",
+    duration: "(June 2024 - Oct 2024)",
     url: "https://www.aaxonsolutions.com/",
     logo: "/aaxon.svg"
   },

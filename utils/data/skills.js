@@ -19,8 +19,6 @@ export const skillsData = [
   'Azure',
   'Flutter',
   '.net core',
-  'Kubernetes',
-  'Linux',
   'FastAPI',
   'node',
   'nest',
