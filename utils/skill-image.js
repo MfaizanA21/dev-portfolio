@@ -88,7 +88,7 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
-import redis from '../app/assets/svg/skills/redis.svg'
+import redis from '../app/assets/svg/skills/Redis.svg'
 
 
 export const skillsImage = (skill) => {
