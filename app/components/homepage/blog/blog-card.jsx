@@ -43,9 +43,20 @@ function BlogCard({ blog }) {
         <p className='mb-2 text-sm text-[#16f2b3]'>
           {`${blog.role}`}
         </p>
-        <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
+        <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6'>
           {blog.description}
         </p>
+        <div className="flex flex-wrap gap-2">
+          {blog.tools.map((tool, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 bg-[#2a2f4f] text-[#d3d8e8] text-xs rounded-full"
+            >
+              {tool}
+            </span>
+          ))}
+        </div>
+
         {/* <div className="">
           <Link target='_blank' href={blog.url}>
             <button className='bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs'>

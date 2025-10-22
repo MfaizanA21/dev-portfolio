@@ -4,7 +4,7 @@ export const projectsData = [
         title: 'BridgeIT',
         description: "BridgeIT connects Pakistan’s software industry with academic institutions, facilitating collaboration between professionals, faculty, and students for real-world project opportunities and knowledge sharing.",
         tools: ['.Net Core', 'EF Core', 'Fast Api', 'Azure', 'MS SQL Server', 'Flask', 'NextJs', 'Vercel', 'Stripe', 'TypeScript', 'Webhooks'],
-        role: 'Full Stack Developer',
+        role: 'Final Year Project',
         cover_image: '/bridgeit.png',
         url: 'https://bridgeit-cyan.vercel.app/',
     },
@@ -21,32 +21,36 @@ export const projectsData = [
         id: 3,
         title: 'Worko',
         description: 'Worko is a Swedish recruitment platform specializing in IT and civil engineering sectors, which offers a strategic, data-driven approach to talent acquisition and career planning.',
-        tools: ['ReactJS', 'NestJS', 'MongoDB', 'Azure', 'TypeScript'],
+        tools: ['ReactJS', 'NestJS', 'MongoDB', 'Azure', 'TypeScript', 'TypeORM', 'Redux Toolkit'],
         cover_image: '/worko.png',
         role: 'Full Stack Developer',
         url: 'https://worko.com/',
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+        title: 'SaudaSalaf',
+        description: "A grocery shopping mobile application that allows users to order groceries online and get them delivered to their doorstep.",
+        tools: ['Android', 'Kotline', 'Jetpack Compose', 'Firebase', "Dagger Hilt", "MVVM", "Room"],
+        cover_image: '/saudasalaf.png',
+        url: 'https://github.com/MfaizanA21/SaudaSalaf',
+        role: 'Solo Project',
+    },
+    {
+        id: 5,
+        title: 'Aurora Read',
+        description: "AI based web application that helps young students improve their reading skills by providing real-time feedback on their pronunciation and fluency.",
+        tools: ['StreamLit', 'Python', 'Google Whisper', 'Librosa', 'AWS Bedrock', 'LLM', 'JavaScript'],
+        cover_image: '/chatapp.png',
+        url: '',
+        role: 'Hackathon Project',
+    },
+    {
+        id: 6,
+        title: 'Blockchain based vehicle registration',
+        description: "A decentralized application (DApp) for vehicle registration using blockchain technology to ensure transparency, security, and immutability of vehicle records.",
+        tools: ['ReactJS', 'NodeJS', 'MS SQL Server', 'Blockchain', 'Smart Contracts', 'Azure', 'Vercel'],
+        cover_image: '/auroraread.png',
+        url: '',
+        role: 'Personal Project',
+    },
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },

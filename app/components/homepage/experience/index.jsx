@@ -40,7 +40,7 @@ function Experience() {
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
-                  <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
+                  <GlowCard key={experience.id} identifier={`experience-${experience.id}`} url={experience.url}>
                     <div className="p-3 relative">
                       <Image
                         src="/blur-23.svg"
@@ -56,7 +56,13 @@ function Experience() {
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                          <Image
+                            src={experience.logo}
+                            alt={experience.company}
+                            width={60}
+                            height={60}
+                            className="h-16 w-16 sm:h-20 sm:w-20"
+                          />
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">

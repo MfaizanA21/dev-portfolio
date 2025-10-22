@@ -1,8 +1,9 @@
 "use client"
 
 import { useEffect } from 'react';
+import Link from 'next/link';
 
-const GlowCard = ({ children , identifier}) => {
+const GlowCard = ({ children , identifier, url}) => {
   useEffect(() => {
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
@@ -70,10 +71,12 @@ const GlowCard = ({ children , identifier}) => {
 
   return (
     <div className={`glow-container-${identifier} glow-container`}>
-      <article className={`glow-card glow-card-${identifier} h-fit border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl hover:border-transparent w-full`}>
-        <div className="glows"></div>
-        {children}
-      </article>
+      <Link href={url} target='_blank'>
+        <article className={`glow-card glow-card-${identifier} h-fit border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl hover:border-transparent w-full`}>
+          <div className="glows"></div>
+          {children}
+        </article>
+      </Link>
     </div>
   );
 };

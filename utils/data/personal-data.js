@@ -2,6 +2,7 @@ export const personalData = {
   name: "Muhammad Faizan Asghar",
   profile: '/profile.png',
   designation: "Software Engineer",
+  origin: 'Pakistan',
   description: "I’m a Software Engineer who enjoys crafting apps and systems that run smoothly across platforms. I love building mobile apps with Android and Flutter, digging into backend work with .NET Core and NestJS, and creating intuitive interfaces with Angular and React. Working across the full stack, I’m always learning new ways to build solutions that click with users and tackle real challenges.",
   email: 'mfaizaan771@gmail.com',
   phone: '-------',
