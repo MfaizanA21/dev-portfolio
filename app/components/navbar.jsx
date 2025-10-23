@@ -1,7 +1,6 @@
 // @flow strict
 import Link from "next/link";
 
-
 function Navbar() {
   return (
     <nav className="bg-transparent">
@@ -9,7 +8,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
+            className=" text-[#16f2b3] text-3xl font-bold hover:text-violet-400">
             Portfolio
           </Link>
         </div>
@@ -26,15 +25,9 @@ function Navbar() {
           <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#skills"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SKILLS</div></Link>
           </li>
-          {/* <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#education"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">EDUCATION</div></Link>
-          </li> */}
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/blog"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div></Link>
-          </li>
-          {/* <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div></Link>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>

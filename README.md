@@ -53,15 +53,5 @@ Then start the production server:
 npm start
 ```
 
-## Customization
-- Update personal details in `utils/data/personal-data.js`.
-- Modify styles in the `styles/` directory or update Tailwind classes.
-- Add new sections or components in the `components/` or `pages/` directories.
-
-## Deployment
-Deploy easily to platforms like [Vercel](https://vercel.com/) (recommended for Next.js):
-1. Push your code to a GitHub repository.
-2. Connect the repository to Vercel and deploy.
-
 ## License
 This project is licensed under the MIT License..
