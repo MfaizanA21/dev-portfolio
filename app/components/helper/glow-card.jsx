@@ -63,20 +63,29 @@ const GlowCard = ({ children , identifier, url}) => {
     RESTYLE();
     UPDATE();
 
-    // Cleanup event listener
     return () => {
       document.body.removeEventListener('pointermove', UPDATE);
     };
   }, [identifier]);
 
+  const cardContent = (
+    <article
+      className={`glow-card glow-card-${identifier} h-fit cursor-pointer border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl hover:border-transparent w-full`}
+    >
+      <div className="glows"></div>
+      {children}
+    </article>
+  );
+
   return (
     <div className={`glow-container-${identifier} glow-container`}>
-      <Link href={url} target='_blank'>
-        <article className={`glow-card glow-card-${identifier} h-fit border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl hover:border-transparent w-full`}>
-          <div className="glows"></div>
-          {children}
-        </article>
-      </Link>
+      {url ? (
+        <Link href={url} className="block w-full" target="_blank" rel="noopener noreferrer">
+          {cardContent}
+        </Link>
+      ) : (
+        cardContent
+      )}
     </div>
   );
 };
