@@ -3,13 +3,22 @@
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 
-
 function AboutSection() {
   return (
-    <div id="about" className="my-12 lg:my-16 relative">
+    <div id="about" className="lg:my-16 relative">
+      <div className="flex lg:hidden justify-center mb-6">
+        <div className="flex  items-center">
+        <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+        <span className="bg-[#1a1443] text-white px-6 py-2 text-lg font-medium rounded-md tracking-wider">
+          About Me
+        </span>
+        <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+        </div>
+      </div>
+
       <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
-          ABOUT ME
+          About Me
         </span>
         <span className="h-36 w-[2px] bg-[#1a1443]"></span>
       </div>
@@ -18,7 +27,7 @@ function AboutSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Who am I?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg line-height-1.5">
+          <p className="text-gray-200 text-sm lg:text-lg leading-relaxed">
             {personalData.description}
           </p>
         </div>

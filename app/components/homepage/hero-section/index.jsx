@@ -67,7 +67,7 @@ function HeroSection() {
         <div className="order-1 lg:order-2 from-[#0d1224] border-transparent relative rounded-lg border bg-transparent">
           <div className="px-4 lg:px-8 py-5 flex items-center justify-center">
             <img
-              src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif"
+              src="/image/hero-gif.gif"
               alt="coding animation"
               className="w-full h-auto max-h-96 object-contain rounded"
             />

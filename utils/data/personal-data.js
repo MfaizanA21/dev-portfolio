@@ -3,7 +3,7 @@ export const personalData = {
   profile: '/profile.png',
   designation: "Software Engineer",
   origin: 'Pakistan',
-  description: "I’m a Software Engineer who enjoys crafting apps and systems that run smoothly across platforms. I love building mobile apps with Android and Flutter, digging into backend work with .NET Core and NestJS, and creating intuitive interfaces with Angular and React. Working across the full stack, I’m always learning new ways to build solutions that click with users and tackle real challenges.",
+  description: "I'm a Full-stack Software Engineer with 1+ year of hands-on experience building mobile apps using Android (Kotlin, Jetpack Compose) and Flutter, backend systems with .NET and NestJS, and responsive frontends in React and Angular. Skilled in AWS, GitHub Actions, Firebase, and writing clean, testable code to deliver reliable, user-focused solutions.",
   email: 'mfaizaan771@gmail.com',
   phone: '-------',
   address: 'Islamabad, Pakistan',
@@ -12,5 +12,5 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/',
   leetcode: "https://leetcode.com/",
   devUsername: "MfaizanA21",
-  resume: "https://drive.google.com/file/d/1cZy8PftSJOYYoeqq2AbBw35-9E5vMnRn/view?usp=drivesdk"
+  resume: "https://drive.google.com/file/d/1xWvTaYAKUOAv60ieb83SCZ5rmrpk7gy-/view"
 }
